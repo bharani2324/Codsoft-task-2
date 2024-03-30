@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    .forbuttons{
+        outline: none;
+        border: none;
+        background-color: transparent;
+        padding: 10px 12px;
+        font-size: 16px;
+        margin-bottom: 15px;
+        transition: 0.3s;
+    }
+    .forbuttons:hover{
+        transform: translateY(-7px);
+        font-size: 18px;
+    }
+    .forbuttons:active{
+        transform: translateY(3px);
+    }
+    .forbuttons:hover::after{
+        content: '';
+        background-color: aqua;
+        height: 4px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .webdeveloper{
+            font-family: 'cursive-font' , cursive; 
+            font-size: 70px;
+            background: transparent;
+            -webkit-text-stroke: 2px aqua;
+            text-stroke: 2px aqua;
+            color: transparent;
+            letter-spacing: 2px;
+    }
+    .hireme{
+        margin-left: 150px;
+        margin-top: 40px;
+        padding: 8px 20px;
+        font-size: 28px;
+        border-radius: 10px;
+        border: none;
+        background-color: aqua;
+        color: black;
+        transition: 0.3s;
+    }
+    .hireme:hover{
+        transform: translateY(-8px);
+    }
+    .hireme:active{
+        background-color: white;
+        transform: translateZ(-5px);
+    }
+    p{
+        line-height: 35px;
+    }
+    .forfollow{
+        background: transparent;
+        border: none;
+        font-size: 20px;
+        padding: 8px 5px;
+    }
+    .forcv{
+        padding: 15px 20px; 
+        background: aqua;
+        border: none;
+        margin-left: 50px;
+        border-radius: 10px; 
+        font-size: 20px;
+        transition: 0.3s;
+    }
+    .forcv:hover{
+        transform: translateY(-7px);
+    }
+    .forcv:active{
+        background-color: white;
+        transform: translateZ(5px);
+    }
+    svg{
+        width: 65%;
+        height: 150px;
+        border-radius: 5px;
+    }
+    .forpercentage{
+        animation-name: percentage;
+        animation-duration: 6s;
+        color: black;
+    }
+    .forresume{
+        padding: 10px 15px;
+        font-size: 30px;
+        border: none;
+        border-radius: 10px;
+        background-color: aqua;
+        transition: 0.3s;
+        margin-bottom: 40px;
+    }
+    .forresume:hover{
+        transform: translateY(-9px);
+    }
+    .forresume:active{
+        transform: translateY(3px);
+        background-color: white;
+    }
+</style>
+<body>
+    <div style="background-image: url('portfolio back2.jpg');background-size: cover;background-repeat: no-repeat; padding-bottom: 100px;">
+    <div style="background-color: white;">
+        <i class="fa-solid fa-user-secret" style="font-size: 30px; margin-top: 20px; margin-left: 25px;"></i><i style="font-family: 'cursive-font', cursive; margin-left: 4px; font-size: 25px;">Visionary Ventures</i>
+        <button class="forbuttons" style="margin-left: 550px; margin-bottom: 20px;">Home</button>
+        <button class="forbuttons" style="margin-left: 25px;">About</button>
+        <button class="forbuttons" style="margin-left: 25px;">Services</button>
+        <button class="forbuttons" style="margin-left: 25px;">Work</button>
+        <button class="forbuttons" style="margin-left: 25px;">Blog</button>
+        <button class="forbuttons" style="margin-left: 25px;">Contact</button>
+    </div>
+    <h1 style="color: white; margin-left: 75px; margin-top: 130px; font-family: 'cursive-font' , cursive;">Hello, I'm BHARANIDHARAN</h1>
+    <h1 class="webdeveloper" style="margin-left: 75px;">WEB DEVELOPER</h1>
+    <p style="margin-left: 75px; font-size: 20px; color: white; line-height: 25px;">I'm a dedicated web developer with expertise in creating dynamic and visually<br>appealing  websites. Explore my portfolio to witness my commitment to innovative<br>and efficient web development solutions.</p>
+    <button class="hireme">Hire me</button>
+    <button class="hireme">My portfolio</button>
+    </div>
+    <p id="contactme"></p>
+    <img src="my portfolio image.jpg" style="height: 600px; width: 600px; margin-top: 30px; margin-left: 30px; border-radius: 10px;">
+    <div style="float: right; padding: 80px 2px; margin-right: 50px;">
+        <dt style="font-size: 25px;">My Biography</dt><br><dt style="font-size: 50px;">Web developer and<br>Back-end developer</dt><br><dd style="font-size: 20px;">I love Web development as well as backend development and have been working<br>on my portfolio since 2024. I can give your business a new Creative start right away!<br>Contact me and we will discuss your projects!</dd>
+        <p style="margin-top: 50px; font-size: 20px; margin-left: 40px;"><b>Name:  </b>Bharanidharan<span style="margin-left: 200px;"><b>From:</b> TamilNadu, India</span>
+        <br><span style="line-height: 20px;"><b>Email:</b> bharani232427@gmail.com</span><span style="margin-left: 95px;"><b>Phone:</b> +91 9042124983</span>
+        </p>
+        <h4 style="margin-top: 45px; font-size: 22px;">Follow me on<span><button class="forfollow" style="margin-left: 35px;"><a href="//github.com/bharani2324/codsoft.git" target="_blank"><i class="fa-brands fa-github"></i></a></button><button class="forfollow" style="margin-left: 10px;"><a href="https://www.linkedin.com/in/bharanidharan-g-9279942a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a></button><button class="forfollow" style="margin-left: 10px;"><i class="fa-brands fa-facebook"></i></button><button class="forfollow" style="margin-left: 10px;"><a href="https://x.com/Bharanii_27?t=BWeaBt0gTJtQm10fjEpRYA&s=08" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></button></span></h4>
+        <button class="forcv">Hire me</button><button class="forcv">Download CV</button>
+    </div>
+    <div style="margin-top: 150px; transform: translate3d(3px, 3px, 3px);">
+        <i style="font-size: 60px; margin-left: 80px; display: inline-block; height: 7px;">Expertise</i><br>
+        <svg style="background-color: white; margin-top: 8px;">
+            <line x1="100" y1="120" x2="900" y2="120" stroke="#ccc" stroke-width="20" style="border-radius: 20px;"/>
+            <line x1="100" y1="120" x2="850" y2="120" stroke-width="20" stroke="red" class="forpercentage"/>
+        </svg>
+        <div style="float: right; background-color: white; margin-top: 50px; margin-right: 120px;">
+            <i class="fa-brands fa-html5" style="font-size: 100px; margin-right: 20px; color: orangered;"></i>
+            <i class="fa-brands fa-css3-alt" style="font-size: 100px; margin-right: 20px; color: blue;"></i>
+            <i class="fa-brands fa-js" style="font-size: 100px; color: darkorange;"></i>
+        </div>
+        <svg style="background-color: white; margin-top: 10px;">
+            <line x1="100" y1="120" x2="900" y2="120" stroke="#ccc" stroke-width="20"/>
+            <line x1="100" y1="120" x2="830" y2="120" stroke="red" stroke-width="20"/>
+        </svg>
+        <div style="float: right; background-color: white; margin-right: 120px; margin-top: 60px;">
+            <i class="fa-brands fa-python" style="font-size: 100px; margin-right: 40px; color: darkorange;"></i>
+            <img src="c++.png" style="width: 85px; height: 85px; margin-right: 20px;">
+        </div>
+        <svg style="background-color: white; margin-top: 10px;">
+            <line x1="100" y1="120" x2="900" y2="120" stroke="#ccc" stroke-width="20"/>
+            <line x1="100" y1="120" x2="780" y2="120" stroke="red" stroke-width="20"/>
+        </svg>
+        <div style="float: right; background-color: white; margin-right: 120px; margin-top: 60px;">
+            <img src="my sql 2.png" style="background-color: white; width: 110px; height: 110px; margin-right: 10px;">
+            <img src="c.png" style="width: 95px; height: 95px; margin-right: 40px; margin-bottom: 10px;">
+        </div>
+    </div>
+    <i style="font-size: 60px; float: left; display: inline-block; height: 7px; margin-top: 130px; margin-left: 80px;">Certifications and achievements</i>
+    <div style="margin-top: 120px;">
+        <div style="background-color: white; width: 40%; margin-top: 130px; float: left; margin-left: 130px; padding: 8px 10px;">
+            <img src="infosys logo.jpeg" style="width: 300px; height: 200px; margin-left: 130px;">
+            <p>As of my knowledge, infosys springboard helps me to know more about technically. I have successfully completed 5 Certifications related to the programming languages like python, C and C++ and front-end development languages html, css and javascript from this learning platform.</p>
+        </div>
+        <div style="width: 40%; background-color: white; float: left; margin-top: 130px; margin-left: 20px; padding: 8px 10px;">
+            <img src="csc logo.png" style="width: 300px; height: 200px; margin-left: 130px;">
+            <p>I have successfully completed HDCA (Honour Diploma in Computer Applications) course from this institution and I have recently got the certification. By this institution, I have learned deeply to the programming languages.</p>
+        </div>
+    </div>
+    <i style="font-size: 60px; display: inline-block; height: 7px; margin-top: 130px; margin-right: 450px; margin-left: 80px;">Reach out to me</i>
+    <div style="background-color: aqua; margin-top: 50px;">
+        <div style="float: left;">
+        <p style="margin-left: 100px; margin-top: 100px; font-family: 'Times New Roman', Times, serif; font-size: 30px;">"The most disastrous thing that you can ever learn<br>   is your first programming language."<br>
+        </p>
+        <p style="margin-left: 100px;">
+            Full-stack developer | leadership | Critical thinker
+        </p>
+        </div>
+        <div style="float: left; margin-left: 250px;">
+        <img src="my picture.jpg" style="width: 350px; height: 300px; border-radius: 100px; float: right;">
+        </div>
+    </div>
+    <a href="#contactme"><button style="margin-left: 500px; margin-top: 60px; " class="forresume">Contact me</button></a>
+    <a href="BHARANI RESUME.pdf"><button style="margin-left: 30px;" class="forresume">Download my Resume</button></a>
+
+</body>
+</html>
